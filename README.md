@@ -37,7 +37,10 @@ Just change `$this->setRoute('')` to the route located in the API Documentation.
 
 ### Current Methods
 ```php
-	getAuthToken()
-	getUrls()
-	getKeywords()
+	function getAuthToken();
+	function getUrls();
+	function getKeywords();
 ```
+
+#### Note about updates
+I use this class quite a bit and plan on making changes as I need them, so keep an eye out on updates.
