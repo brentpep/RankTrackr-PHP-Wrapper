@@ -18,7 +18,7 @@ You will see how I did it in the wrapper.
 The wrapper makes using cURL very easy. To get the RankTrackr Auth Token:
 ```php
 	public function getAuthToken(){
-		$this->setRoute('api/v1/token');
+		$this->setApiRoute('api/v1/token');
 		$this->enablePostMethod();
 
 		$postFields = array('email'=>$this->_username,'password'=>$this->_password);
