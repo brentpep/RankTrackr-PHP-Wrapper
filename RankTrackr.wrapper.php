@@ -189,7 +189,7 @@ class RankTrackr{
 		$header = array(
 			'Accept: application/json',
 		    'Content-Type: application/json',
-		    'Host: users.ranktrackr.com'
+		    'Host: ' . $this->_apiEndpoint
 		);
 		return $header;
 	}
